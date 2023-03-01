@@ -59,5 +59,57 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        public List<Pracant> GetPracants()
+        {
+            List<Pracant> pracants = new List<Pracant>();
+            using(SqlConnection conn = new SqlConnection(connection))
+            {
+                conn.Open();
+                using(SqlCommand command = conn.CreateCommand()) {
+                    command.CommandText = "select * from Users";
+                using(SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            pracants.Add(new Pracant((int) reader["IdUser"], (int)reader["IdEmployee"], reader["Jmeno"].ToString(),  reader["Heslo"].ToString(), reader["PasswordSalt"].ToString()));
+
+                        }
+                    }
+                }
+                conn.Close();
+            }
+            return pracants;
+            
+        }
+        public void Delete(int IdDelete)
+        {
+            using (SqlConnection conn = new SqlConnection(connection))
+            {
+                conn.Open();
+                using(SqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = "Delete from Users where IdUser =@IdUser";
+                    cmd.Parameters.AddWithValue("IdUser", IdDelete);
+                    cmd.ExecuteNonQuery();
+                }
+                conn.Close();
+            }
+        }
+        public void Insert(int IdDelete)
+        {
+            using (SqlConnection conn = new SqlConnection(connection))
+            {
+                conn.Open();
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = "INSERT into Users values(@IdEmployee,@UserName,Password"; //tady pokračuj
+                    cmd.Parameters.AddWithValue("IdUser", IdDelete);
+                    cmd.ExecuteNonQuery();
+                }
+                conn.Close();
+            }
+        }
+
     }
 }

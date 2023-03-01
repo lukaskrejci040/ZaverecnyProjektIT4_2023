@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         public FormLogin()
         {
             InitializeComponent();
-            sqlRepository = new SqlRepository(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=projektDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            sqlRepository = new SqlRepository(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\krejci.lukas\Desktop\projektDB.mdf;Integrated Security=True;Connect Timeout=30");
         }
 
         private void BtnLogin_Click(object sender, EventArgs e)
@@ -24,6 +24,8 @@ namespace WindowsFormsApp1
             if(TBjmeno != null || TBHeslo != null)
             {
                 sqlRepository.Login(TBjmeno.Text, TBHeslo.Text);
+                Form Mainform = new MainForm();
+                Mainform.ShowDialog();
             }
 
         }

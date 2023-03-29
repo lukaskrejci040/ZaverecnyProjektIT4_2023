@@ -30,7 +30,6 @@
         {
             this.BtnStorno = new System.Windows.Forms.Button();
             this.BtnEditUser = new System.Windows.Forms.Button();
-            this.BtnEditRole = new System.Windows.Forms.Button();
             this.BtnEditEmployee = new System.Windows.Forms.Button();
             this.BtnEditContract = new System.Windows.Forms.Button();
             this.BtnEditWorkType = new System.Windows.Forms.Button();
@@ -50,22 +49,13 @@
             // 
             // BtnEditUser
             // 
-            this.BtnEditUser.Location = new System.Drawing.Point(12, 91);
+            this.BtnEditUser.Location = new System.Drawing.Point(12, 120);
             this.BtnEditUser.Name = "BtnEditUser";
             this.BtnEditUser.Size = new System.Drawing.Size(162, 23);
             this.BtnEditUser.TabIndex = 1;
             this.BtnEditUser.Text = "Nabídka uživatelů";
             this.BtnEditUser.UseVisualStyleBackColor = true;
             this.BtnEditUser.Click += new System.EventHandler(this.BtnEditUser_Click);
-            // 
-            // BtnEditRole
-            // 
-            this.BtnEditRole.Location = new System.Drawing.Point(12, 120);
-            this.BtnEditRole.Name = "BtnEditRole";
-            this.BtnEditRole.Size = new System.Drawing.Size(162, 23);
-            this.BtnEditRole.TabIndex = 2;
-            this.BtnEditRole.Text = "Nabídka rolí";
-            this.BtnEditRole.UseVisualStyleBackColor = true;
             // 
             // BtnEditEmployee
             // 
@@ -126,7 +116,6 @@
             this.Controls.Add(this.BtnEditWorkType);
             this.Controls.Add(this.BtnEditContract);
             this.Controls.Add(this.BtnEditEmployee);
-            this.Controls.Add(this.BtnEditRole);
             this.Controls.Add(this.BtnEditUser);
             this.Controls.Add(this.BtnStorno);
             this.Name = "HLNabídkaForm";
@@ -140,7 +129,6 @@
 
         private System.Windows.Forms.Button BtnStorno;
         private System.Windows.Forms.Button BtnEditUser;
-        private System.Windows.Forms.Button BtnEditRole;
         private System.Windows.Forms.Button BtnEditEmployee;
         private System.Windows.Forms.Button BtnEditContract;
         private System.Windows.Forms.Button BtnEditWorkType;

@@ -33,8 +33,6 @@
             this.TBjmeno = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.BtnAdmin = new System.Windows.Forms.Button();
-            this.BtnUser = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnLogin
@@ -80,33 +78,11 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Heslo";
             // 
-            // BtnAdmin
-            // 
-            this.BtnAdmin.Location = new System.Drawing.Point(224, 159);
-            this.BtnAdmin.Name = "BtnAdmin";
-            this.BtnAdmin.Size = new System.Drawing.Size(75, 23);
-            this.BtnAdmin.TabIndex = 5;
-            this.BtnAdmin.Text = "Admin";
-            this.BtnAdmin.UseVisualStyleBackColor = true;
-            this.BtnAdmin.Click += new System.EventHandler(this.BtnAdmin_Click);
-            // 
-            // BtnUser
-            // 
-            this.BtnUser.Location = new System.Drawing.Point(46, 159);
-            this.BtnUser.Name = "BtnUser";
-            this.BtnUser.Size = new System.Drawing.Size(75, 23);
-            this.BtnUser.TabIndex = 6;
-            this.BtnUser.Text = "User";
-            this.BtnUser.UseVisualStyleBackColor = true;
-            this.BtnUser.Click += new System.EventHandler(this.BtnUser_Click);
-            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(324, 216);
-            this.Controls.Add(this.BtnUser);
-            this.Controls.Add(this.BtnAdmin);
+            this.ClientSize = new System.Drawing.Size(324, 135);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TBjmeno);
@@ -126,8 +102,6 @@
         private System.Windows.Forms.TextBox TBjmeno;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button BtnAdmin;
-        private System.Windows.Forms.Button BtnUser;
     }
 }
 

@@ -1,0 +1,42 @@
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormLogin.resources
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Update.resources
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HLNabídkaForm.resources
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EditEmployee.resources
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EditContract.resources
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EditWorkType.resources
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EditWorkHour.resources
+D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Uzivatel.resources
+D:\Projekt PRG\KARANTÉNA (aktuální)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.WorkTypeList.resources
+D:\Projekt PRG\KARANTÉNA (aktuální)\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ContractList.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ContractList.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EditContract.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EditEmployee.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EditWorkHour.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EditWorkType.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormLogin.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HLNabídkaForm.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Update.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Uzivatel.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.WorkTypeList.resources
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\krejci.lukas\Desktop\Projekt práce v hodině\ZaverecnyProjektIT4_2023-main\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

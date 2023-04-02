@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
            
         }
-        SqlRepository sqlRepository = new SqlRepository(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=""C:\USERS\KREJCI.LUKAS\DESKTOP\PROJEKT\KARANTÉNA (AKTUÁLNÍ)\PROJEKTDB (1).MDF"";Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        SqlRepository sqlRepository = new SqlRepository(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\projektDB (1).mdf';Integrated Security=True;Connect Timeout=30");
 
         private void TBEmployeeE_TextChanged(object sender, EventArgs e)
         {
@@ -30,23 +30,20 @@ namespace WindowsFormsApp1
         private void BtnUpdate_Click(object sender, EventArgs e)
 
         {
-            using (var hmac = new HMACSHA512())
-            {
-                byte[] PasswordSalt = hmac.Key;
-                byte[] PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(TBPasswordE.Text));
+      
 
                 string IdKtery = numericUpDown1.Value.ToString();
                 string IdEmployee = TBEmployeeE.Text;
                 string UserName = TBUserNameE.Text;
                 try
-                {
-                sqlRepository.Update(Convert.ToInt32(IdKtery),/* Convert.ToInt32(IdEmployee), */UserName, PasswordHash, PasswordSalt, Convert.ToBoolean(TBAdminE.Text));
+               {
+                sqlRepository.Update(Convert.ToInt32(IdKtery),  UserName, TBPasswordE.Text, "1", Convert.ToBoolean(TBAdminE.Text),Convert.ToInt32(TBEmployeeE.Text));
                 }
-                catch
+               catch
                 {
                     MessageBox.Show("Něco se pokazilo");
                 }
-            }
+            
             sqlRepository.GetPracants();
             LWMain.Items.Clear();
             var pracant = sqlRepository.GetPracants();
@@ -92,5 +89,7 @@ namespace WindowsFormsApp1
                 LWMain.Items.Add(new ListViewItem(new string[] { p.IdUser.ToString(), p.IdEmployee.ToString(), p.Jmeno.ToString(), p.Heslo.ToString(), p.PasswordSalt.ToString(), p.Admin.ToString() }));
             }
         }
+
+        
     }
 } 

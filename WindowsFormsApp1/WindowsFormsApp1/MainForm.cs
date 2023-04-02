@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
         public MainForm()
         {
             InitializeComponent();
-             sqlRepository = new SqlRepository(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=""C:\USERS\KREJCI.LUKAS\DESKTOP\PROJEKT\KARANTÉNA (AKTUÁLNÍ)\PROJEKTDB (1).MDF"";Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+             sqlRepository = new SqlRepository(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\Projekt PRG\KARANTÉNA (AKTUÁLNÍ)\projektDB (1).mdf';Integrated Security=True;Connect Timeout=30");
         }
 
         
@@ -59,20 +59,19 @@ namespace WindowsFormsApp1
 
         private void BtnInsert_Click(object sender, EventArgs e)
         {
-            using (var hmac = new HMACSHA512())
-            {
-                byte[] PasswordSalt = hmac.Key;
-                string PasswordHash = TBPassword.Text;
+            
+                string PasswordSalt = "1";
+                string PasswordHash = "1";
                 try
                 {
-                    sqlRepository.Insert(Convert.ToInt32(TBIdEmployee.Text), TBUserName.Text.ToString(), PasswordHash, PasswordSalt, Convert.ToBoolean(TBAdmin.Text));
+                    sqlRepository.Insert(Convert.ToInt32(TBIdEmployee.Text), TBUserName.Text.ToString(),TBPassword.Text.ToString(), PasswordSalt, Convert.ToBoolean(TBAdmin.Text));
                 }
                 catch
                 {
                     MessageBox.Show("Něco se pokazilo");
                 }
                 
-            }
+            
             LWMain.Items.Clear();
             var pracant = sqlRepository.GetPracants();
             foreach (var p in pracant)

@@ -100,7 +100,7 @@ namespace WindowsFormsApp1
                 conn.Close();
             }
         }
-        public void Insert(int IdEmployee, string UserName, string Password, byte[] PasswordSalt, bool Admin)
+        public void Insert(int IdEmployee, string UserName, string Password, string PasswordSalt, bool Admin)
         {
             using (SqlConnection conn = new SqlConnection(connection))
             {
@@ -124,14 +124,14 @@ namespace WindowsFormsApp1
                 conn.Close();
             }
         }
-        public void Update(int IdUser,/* int IdEmployee,*/ string UserName, byte[] Password, byte[] PasswordSalt, bool Admin)
+        public void Update(int IdUser,/* int IdEmployee,*/ string UserName, string Password, string PasswordSalt, bool Admin, int IdEmployee)
         {
             using (SqlConnection conn = new SqlConnection(connection))
             {
                 conn.Open();
                 using (SqlCommand cmd = conn.CreateCommand())
                 {
-                    cmd.CommandText = "Update Users set UserName=@UserName, Password = @Password, PasswordSalt=@PasswordSalt, Admin=@Admin where IdUser=@IdUser";
+                    cmd.CommandText = "Update Users set UserName=@UserName, IdEmployee=@IdEmployee, Password = @Password, PasswordSalt=@PasswordSalt, Admin=@Admin where IdUser=@IdUser";
 
                     // cmd.Parameters.AddWithValue("IdEmployee", IdEmployee);   // špatnej syntax u IdEmployee, nvm
                     cmd.Parameters.AddWithValue("UserName", UserName);
@@ -139,6 +139,7 @@ namespace WindowsFormsApp1
                     cmd.Parameters.AddWithValue("PasswordSalt", PasswordSalt);
                     cmd.Parameters.AddWithValue("IdUser", IdUser);
                     cmd.Parameters.AddWithValue("Admin", Admin);
+                    cmd.Parameters.AddWithValue("IdEmployee", IdEmployee);
                     cmd.ExecuteNonQuery();
                 }
                 conn.Close();
